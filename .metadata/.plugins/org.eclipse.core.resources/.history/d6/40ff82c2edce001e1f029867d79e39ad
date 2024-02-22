@@ -1,0 +1,16 @@
+package Sec08;
+
+public class ArrExam {
+
+	public static void main(String[] args) {
+		
+		
+		ArrMethod ar = new ArrMethod();
+		
+		System.out.println(ar);
+		
+		
+
+	}
+
+}

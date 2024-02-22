@@ -1,0 +1,9 @@
+package Muchine;
+
+public class product {
+     //private ÇÊµå
+	
+	private String name;
+	private int price;
+	private int num;
+}

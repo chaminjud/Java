@@ -1,0 +1,42 @@
+package Sec05;
+
+public class KoreanExam {
+
+	public static void main(String[] args) {
+		
+		Korean k1 = new Korean("안철수", "213233-123123",65);
+		Korean k2 = new Korean("이영자", "123123-212331",40);
+		
+	
+		System.out.println(k1.name +","+ k1.ssn +","+ k1.age);
+		System.out.println("국적 :" + k1.nation);
+		
+
+		System.out.println(k2.name +","+ k2.ssn +","+ k2.age);
+		System.out.println("국적 :" + k1.nation);
+
+		k1.active();
+		
+		
+		//생성자 오버로딩 
+		//메소드 오버로딩
+		// 문법은 동일하다 생성자에 쓰거나 메소드에 쓰는 차이
+		
+		//함수의 매개변수가 있을때
+//		function(a,b,c){
+//			
+//		}
+//		매개변수가 있을수도 있고 없을 수도 있을때 사용한다
+		
+		str();
+		
+		str(a);
+		
+		str(a,b);
+		
+		str(a,b,c);
+		
+		str(a,b,c);
+	}
+
+}

@@ -1,0 +1,13 @@
+package Sec12;
+
+public class Earth {
+       
+	
+       static final double Earth_Radius = 6400;
+       
+       static final double Earth_Surface_Area = 6400 * 3.14;
+       
+       static void method1() {
+    	   System.out.println("지구의 반지름은" + Earth_Radius + "Km이고" + "지구의 표면적은" + Earth_Surface_Area + "Km^2 입니다");
+       }
+}

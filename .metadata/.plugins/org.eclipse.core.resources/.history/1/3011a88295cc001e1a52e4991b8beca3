@@ -1,0 +1,19 @@
+package Sec05;
+
+public class Korean {
+
+	String nation = "¥Î«—πŒ±π";
+	String name;
+	int ssn;
+	int age;
+	
+	
+	Korean(String name, int ssn,int age){
+		this.name = name;
+		this.ssn = ssn;
+		this.age = age;
+	}
+	
+	
+	
+}

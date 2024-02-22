@@ -1,0 +1,14 @@
+package Sec06;
+
+public class Calculator2 {
+
+	
+	
+	void SwitchOn(){
+		System.out.println("전원을 켰습니다.");
+	}
+	
+	void SwitchOff() {
+		System.out.println("전원을 껏습니다.");
+	}
+}

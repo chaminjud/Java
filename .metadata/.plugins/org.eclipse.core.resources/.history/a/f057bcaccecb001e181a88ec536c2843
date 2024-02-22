@@ -1,0 +1,49 @@
+package Sec08;
+
+import java.util.Scanner;
+
+public class Test3Exam {
+
+	public static void main(String[] args) {
+		
+		
+	       Scanner sc = new Scanner(System.in);
+	       boolean r = true;
+	       
+	       while(r) {
+	    	   System.out.println("----------------------------------------------");
+	    	   System.out.println("1.학생수 | 2.점수입력 | 3.점수리스트 | 4.분석 | 5.종료");
+	    	   System.out.println("----------------------------------------------");
+	    	   System.out.print("선택> ");
+	    	   
+	    	   int selectNo = Integer.parseInt(sc.nextLine());
+	    	   
+	    	   switch(selectNo) {
+	    	   case 1:
+	    		   
+	    		   break;
+	    	   case 2:
+	    		   
+	    		   break;
+	    	   case 3:
+	    		   
+	    		   break;
+	    		   
+	    	   case 4:
+	    		   
+	    		   break;
+	    		   
+	    	   case 5:
+	    		   default:
+	    			   System.out.println("종료");
+	    			   r = false;
+	    	   }
+	       }
+		
+	    
+	       
+		
+
+	}
+
+}

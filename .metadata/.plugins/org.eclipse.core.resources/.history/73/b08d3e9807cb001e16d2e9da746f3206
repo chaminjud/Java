@@ -1,0 +1,60 @@
+package Sec08;
+
+import java.util.Calendar;
+
+public class EnumClassExam {
+
+	public static void main(String[] args) {
+		
+		//enum은 외부에서 가져와서 사용한다.
+		// Week today = Week.WEDNESDAY;
+		
+		Week today = null;
+		
+		//컴퓨터에 있는 날짜 요일 시간을 얻으려면 java.util.Calendar를 사용한다.
+		//java.util.GregorianCalendar
+		//enum(열거타입)은 대문자로 쓴다. 복합단어의 경우 스네이크표기법을 이용
+		Calendar now = Calendar.getInstance();
+		
+		int year = now.get(Calendar.YEAR); //연
+		int month = now.get(Calendar.MONTH) +1; //월
+		int day = now.get(Calendar.DAY_OF_MONTH); //일
+		int week = now.get(Calendar.DAY_OF_WEEK); // 요일 (1~7 까지 나옴)
+		int hour = now.get(Calendar.HOUR);//시간
+		int minute = now.get(Calendar.MINUTE); //분
+        int second = now.get(Calendar.SECOND); //초
+        
+        switch(week) {
+        case 1: 
+        	today = Week.SUNDAY;
+        	break;
+        case 2: 
+        	today = Week.MONDAY;
+        	break;
+        case 3: 
+        	today = Week.TUESDAY;
+        	break;
+        case 4: 
+        	today = Week.WEDNESDAY;
+        	break;
+        case 5: 
+        	today = Week.THURSDAY;
+        	break;
+        case 6: 
+        	today = Week.FRIDAY;
+        	break;
+        case 7: 
+        	today = Week.SATURDAY;
+        	break;
+        }
+        
+        System.out.println(year);
+        System.out.println(month);
+        System.out.println(day);
+        System.out.println(week);
+        System.out.println(hour);
+        System.out.println(minute);
+        System.out.println(second);
+	}
+
+}

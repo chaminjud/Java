@@ -1,0 +1,23 @@
+package Sec12;
+
+public class Korean {
+
+	//인스턴스 final 필드
+	
+	final String nation = "대한민국";
+	final String ssn;
+	
+	String name;
+	
+	//생성자 선언
+	public Korean(String ssn, String name) {
+		this.ssn = ssn;
+		this.name = name;
+	}
+	
+	//메서드 초기화 
+	void KoreanInit(String getSsn, String getName) {
+		this.ssn = getSsn;
+		this.name = getName;
+	}
+}

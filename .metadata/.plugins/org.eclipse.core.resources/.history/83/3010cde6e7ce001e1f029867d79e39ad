@@ -1,0 +1,66 @@
+package Sec06;
+
+import java.util.Scanner;
+
+public class Calculator2Exam {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		Scanner sc2 = new Scanner(System.in);
+		Scanner sc3 = new Scanner(System.in);
+		Calculator2 C1 = new Calculator2();
+		boolean r = true;
+		
+		
+		   C1.SwitchOn();
+		   
+		 int x = sc.nextInt();
+		 
+		 while(r) {
+			 String ad = sc2.nextLine();
+			 x = sc.nextInt();
+			 switch(ad) {
+			 case "+":
+				 int y = sc3.nextInt();
+				 int rs = C1.add(x, y);
+				 System.out.println(rs);
+			     break;
+			 case "-":
+				 int z = sc3.nextInt();
+				 int rs2 = C1.minus(x, z);
+				 System.out.println(rs2);
+				 break;
+			 case "*":
+				 int w = sc3.nextInt();
+				 int rs3 = C1.rhq(x, w);
+				 System.out.println(rs3);
+				 break;
+			 case "/":
+				 double e = sc3.nextInt();
+				 double rs4 = C1.sksnrl(x, e);
+				 System.out.println(rs4);
+				 break;
+				 	 
+			 }
+		 }
+		
+			
+			
+			
+		
+		
+		
+		
+		   
+		  
+		       
+		    	
+		    	
+		    
+			
+		
+
+	}
+
+}

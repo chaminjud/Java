@@ -1,0 +1,14 @@
+package Sec08;
+
+public class MsaExam {
+
+	public static void main(String[] args) {
+		
+		if(args.length != 2) {
+			System.out.println("매개변수의 수가 부족하거나 많습니다.");
+			System.exit(0); // 프로그램 강제종료;
+		}
+
+	}
+
+}

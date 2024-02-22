@@ -1,0 +1,14 @@
+package Sec05;
+
+public class CarExam {
+
+	public static void main(String[] args) {
+		
+		//°´Ã¼ »ý¼º
+		Car MyCar = new Car();
+		
+		System.out.println("¸ðµ¨¸í :" + MyCar.model);
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package Exam14;
+
+public class Member {
+
+	private int num;
+	private String userName;
+	private String userEmail;
+	private boolean gender;
+	private int count;
+	private String address;
+	private int age;
+	
+}

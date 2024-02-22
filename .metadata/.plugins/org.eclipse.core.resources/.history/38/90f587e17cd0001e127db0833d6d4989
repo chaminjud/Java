@@ -1,0 +1,9 @@
+package Exam131.package2;
+
+// 전부다 import 한다
+import Exam131.package1.*;
+
+public class C {
+  //필드 선언
+	A a1 = new A(true);
+}

@@ -1,0 +1,28 @@
+package Exam14;
+
+public class MemberExam {
+
+	public static void main(String[] args) {
+	
+		
+		Member mem = new Member();
+		
+		mem.setNum(1);
+		mem.setUserName("È«±æµ¿");
+		mem.setUserEmail("jhog@ghow.com");
+		mem.setGender(false);
+		mem.setCount(1000);
+		mem.setAddress("±èÆ÷½Ã");
+		mem.setAge(21);
+		
+		System.out.println(mem.getNum());
+		System.out.println(mem.getUserName());
+		System.out.println(mem.getUserEmail());
+		System.out.println(mem.isGender());
+		System.out.println(mem.getCount());
+		System.out.println(mem.getAddress());
+		System.out.println(mem.getAge());
+
+	}
+
+}

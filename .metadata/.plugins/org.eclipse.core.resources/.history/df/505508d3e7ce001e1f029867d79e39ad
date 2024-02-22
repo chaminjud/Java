@@ -1,0 +1,42 @@
+package Sec06;
+public class Calculator2 {
+
+	Calculator2(){}
+	
+	Calculator2(int a, int b){
+	}
+	
+	
+	
+	
+    int add(int x ,int y) {
+		int rs = x + y;
+		return rs;
+	}
+	
+	int minus(int x , int y) {
+		int rs = x - y;
+		return rs;
+	}
+	
+	int rhq(int x , int y) {
+		int rs = x * y;
+		return rs;
+	}
+	
+	double snskrl(int x , int y) {
+		double rs = (double) x / y;
+		return rs;
+	}
+	
+	
+	
+	
+	void SwitchOn(){
+		System.out.println("전원을 켰습니다.");
+	}
+	
+	void SwitchOff() {
+		System.out.println("전원을 껏습니다.");
+	}
+}

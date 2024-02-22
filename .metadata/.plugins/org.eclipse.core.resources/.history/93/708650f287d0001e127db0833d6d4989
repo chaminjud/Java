@@ -1,0 +1,46 @@
+package Sec001;
+
+public class Application {
+
+	private String cola;
+	private String cider;
+	private String coffee;
+	private String whiba;
+	private int pay;
+	public String getCola() {
+		return cola;
+	}
+	public void setCola(String cola) {
+		this.cola = cola;
+	}
+	public String getCider() {
+		return cider;
+	}
+	public void setCider(String cider) {
+		this.cider = cider;
+	}
+	public String getCoffee() {
+		return coffee;
+	}
+	public void setCoffee(String coffee) {
+		this.coffee = coffee;
+	}
+	public String getWhiba() {
+		return whiba;
+	}
+	public void setWhiba(String whiba) {
+		this.whiba = whiba;
+	}
+	public int getPay() {
+		return pay;
+	}
+	public void setPay(int pay) {
+		this.pay = pay;
+	}
+	
+	
+	
+	
+	
+	
+}

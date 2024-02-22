@@ -1,0 +1,39 @@
+package Sec08;
+
+public class Msa2Exam {
+
+	public static void main(String[] args) {
+		
+		
+		if(args.length != 4) {
+			System.out.println("매개변수의 수가 부족하거나 많습니다");
+			System.exit(0);
+		}
+		String nums1 = args[0];
+		String nums2 = args[1];
+		String nums3 = args[2];
+		String nums4 = args[3];
+		String nums5 = args[4];
+		String nums6 = args[5];
+		String nums7 = args[6];
+		
+		
+		int num1 = Integer.parseInt(nums1);
+		int num2 = Integer.parseInt(nums2);
+		int num3 = Integer.parseInt(nums3);
+		int num4 = Integer.parseInt(nums4);
+		int num5 = Integer.parseInt(nums5);
+		int num6 = Integer.parseInt(nums6);
+		int num7 = Integer.parseInt(nums7);
+		
+		int result1 = num1+num2+num3+num4;
+		
+		System.out.println(result1);
+		
+		double result2 = (double) (num1+num2+num3+num4) / 4;
+		
+		System.out.println(result2);
+
+	}
+
+}

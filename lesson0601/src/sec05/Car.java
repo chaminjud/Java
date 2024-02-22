@@ -1,0 +1,31 @@
+package sec05;
+
+public class Car {
+	//필드
+	String model = "현대자동차";
+	int speed = 100;
+	boolean start = true;
+	
+	
+	
+	Car(){}
+	
+	Car(String model){
+		this.model = "bus";
+		System.out.println("myCar1 :" + this.model);
+	}
+	
+	Car(String model,int speed){
+		this.model = "bus";
+		this.speed = 200;
+		System.out.println("myCar2 :" + this.model + this.speed);
+	}
+	
+	Car(String model,int speed, boolean start){
+		this.model = "bus";
+		this.speed = 200;
+		this.start = false;
+		
+		System.out.println("myCar2 :" + this.model + this.speed + this.start);
+	}
+}

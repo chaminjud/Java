@@ -1,0 +1,33 @@
+package sec04;
+
+import java.util.Scanner;
+
+public class DowhileRockExam {
+
+	public static void main(String[] args) {
+		
+		Scanner im = new Scanner(System.in);
+		
+		int com = (int)((Math.random()*3)+1);
+		int use;
+		
+		if(user.equals("가위")) {
+			use = 1;
+		}else if(user.equals("바위")) {
+			use = 2;
+		}else {
+			use = 3;
+		}
+		
+		
+		do {
+			System.out.println("무엇을 내겠습니까?");
+			String user = im.nextLine();
+		}while{
+			
+		}
+		
+
+	}
+
+}

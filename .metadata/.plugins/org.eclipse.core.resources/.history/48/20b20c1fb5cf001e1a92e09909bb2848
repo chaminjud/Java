@@ -1,0 +1,17 @@
+package Sec11;
+
+public class Car {
+
+	int speed;
+	
+	
+	void run() {
+	   simulate();	
+	   System.out.println(speed);
+	}
+	
+	
+	static void simulate() {
+         int speed;
+	}
+}

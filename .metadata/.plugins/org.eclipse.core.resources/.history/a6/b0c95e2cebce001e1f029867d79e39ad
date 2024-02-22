@@ -1,0 +1,32 @@
+package Sec06;
+
+import java.util.Scanner;
+
+public class Calculator2Exam {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		Calculator2 cal = new Calculator2();
+		
+		//리턴값이 없는 메서드를 호출
+		cal.powerOn();
+		
+		
+		int rs1 = cal.plus(143, 745);
+		System.out.println(rs1);
+		
+		double rs2 = cal.divide(120,  17);
+		System.out.println(rs2);
+		
+		cal.powerOff();
+		
+		
+		
+		//리턴값이 없는 메서드를 호출;
+		
+							
+	}
+
+}

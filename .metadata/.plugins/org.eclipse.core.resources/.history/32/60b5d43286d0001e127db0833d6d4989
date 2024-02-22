@@ -1,0 +1,25 @@
+package Sec001;
+
+public class Application {
+
+	private int money;
+	private String drink;
+	
+	public int getMoney() {
+		return money;
+	}
+	public void setMoney(int money) {
+		this.money = money;
+	}
+	public String getDrink() {
+		return drink;
+	}
+	public void setDrink(String drink) {
+		this.drink = drink;
+	}
+
+	
+	
+	
+	
+}

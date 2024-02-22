@@ -1,0 +1,16 @@
+package Sec001;
+
+public class Application {
+
+	private String cola;
+	private String cider;
+	private String coffee;
+	private String whiba;
+	private int pay;
+	
+	
+	
+	
+	
+	
+}

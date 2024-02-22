@@ -1,0 +1,80 @@
+package Sec08;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Test3Exam {
+
+	public static void main(String[] args) {
+		
+		
+	       Scanner sc = new Scanner(System.in);
+	       boolean r = true;
+	       int student = 0;
+	       int score[] = null;
+	       
+	       while(r) {
+	    	   System.out.println("----------------------------------------------");
+	    	   System.out.println("1.학생수 | 2.점수입력 | 3.점수리스트 | 4.분석 | 5.종료");
+	    	   System.out.println("----------------------------------------------");
+	    	   System.out.print("선택> ");
+	    	   
+	    	   int selectNo = Integer.parseInt(sc.nextLine());
+	    	   
+	    	   switch(selectNo) {
+	    	   case 1:
+	    		   System.out.println("학생수 > ");
+	    		   student = Integer.parseInt(sc.nextLine());
+	    		   score = new int[student]; //학생 수 만큼의 배열을 만들어 놓는다.
+	    		   break;
+	    	   case 2:
+	    		   if(score == null) {
+	    			   System.out.println("학생수를 먼저 입력하세요");
+	    		   }
+	    		   
+	    		   for(int i =0; i < score.length; i++) {
+	    			   System.out.print("score["+ i +"] > ");
+	    			   score[i] = Integer.parseInt(sc.nextLine());
+	    		   }
+	    		   
+	    		   break;
+	    	   case 3:
+	    		   if(score == null) {
+	    			   System.out.println("학생수를 먼저 입력하세요");
+	    		   }else if(score =)
+//	    		   for(int i =0; i < score.length; i++) {
+//	    			   System.out.println(score[i]+",");
+//	    		   }
+	    		   System.out.println("입력된 점수 :" + Arrays.toString(score));
+	    		   break;
+	    		   
+	    	   case 4:
+	    		   int max =0;
+	    		   int sum =0;
+	    		   double avg = 0.0;
+	    		   for(int i =0; i < score.length; i++) {
+	    			   max = (max < score[i]) ? score[i] : max;
+	    			   sum += score[i];
+	    		   }
+	    		   
+	    		   avg = (double) sum / student;
+	    		   System.out.println("최고 점수 :" + max + "점");
+	    		   System.out.println("평균 점수 :" + avg + "점");
+	    		   break;
+	    		   
+	    	   case 5:
+	    			   System.out.println("종료");
+	    			   r = false;
+	    			   break;
+	    	   default:
+	    		   r = false;
+	    	   }
+	       }
+		
+	    
+	       
+		
+
+	}
+
+}

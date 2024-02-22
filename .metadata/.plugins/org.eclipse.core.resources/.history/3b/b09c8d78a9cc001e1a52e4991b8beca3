@@ -1,0 +1,42 @@
+package Sec06;
+
+import java.util.Scanner;
+
+public class Calculator2Exam {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		Calculator2 C1 = new Calculator2();
+		
+		
+		   C1.SwitchOn();
+		   
+		   int x = sc.nextInt();
+		   System.out.println(x);
+		   String a = sc.nextLine();
+		   
+		   System.out.println(a);
+		
+		
+		
+		
+			
+			
+			
+		
+		
+		
+		
+		   
+		  
+		       
+		    	
+		    	
+		    
+			
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package Muchine;
+
+import java.util.Scanner;
+
+public class MyAutoMachine {
+
+	public static void main(String[] args) {
+		
+		
+		 Atmachine machine = new Atmachine();
+		 
+		 Scanner sc = new Scanner(System.in);
+		 
+
+	}
+
+}

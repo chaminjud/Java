@@ -1,0 +1,22 @@
+package sec04;
+
+public class BreakLabelExam {
+
+	public static void main(String[] args) {
+		Outer123: for(char upper='A'; upper <= 'Z'; upper++) {
+			for(char lower = 'a'; lower <= 'z'; lower++) {
+				System.out.println(upper + "-" + lower);
+				if(lower == 'g') {
+					break Outer123;
+					
+					//레이블 Outer를 이용해서 만든 for문 
+					// lower가 g에서 끝나면 upper은 b로 시작해야 하지만 
+					// 레이블을 걸어서 브레이크 해주면 for문 자제가 끝난다.
+					// 레이블 네임은 내맘대로 지어줘도 된다.
+				}
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,85 @@
+package Sec001;
+
+public class Application {
+
+	private int money;
+	private String cola;
+	private String cider;
+	private String coffee;
+	private String whiba;
+	private int colacount;
+	private int cidercount;
+	private int coffeecount;
+	private int whibarprice;
+	public int getColacount() {
+		return colacount;
+	}
+	public void setColacount(int colacount) {
+		this.colacount = colacount;
+	}
+	public int getCidercount() {
+		return cidercount;
+	}
+	public void setCidercount(int cidercount) {
+		this.cidercount = cidercount;
+	}
+	public int getCoffeecount() {
+		return coffeecount;
+	}
+	public void setCoffeecount(int coffeecount) {
+		this.coffeecount = coffeecount;
+	}
+	public int getWhibacount() {
+		return whibacount;
+	}
+	public void setWhibacount(int whibacount) {
+		this.whibacount = whibacount;
+	}
+	private int whibacount;
+	
+	
+	public String getCola() {
+		return cola;
+	}
+	public void setCola(String cola) {
+		this.cola = cola;
+	}
+	public String getCider() {
+		return cider;
+	}
+	public void setCider(String cider) {
+		this.cider = cider;
+	}
+	public String getCoffee() {
+		return coffee;
+	}
+	public void setCoffee(String coffee) {
+		this.coffee = coffee;
+	}
+	public String getWhiba() {
+		return whiba;
+	}
+	public void setWhiba(String whiba) {
+		this.whiba = whiba;
+	}
+	public int getMoney() {
+		return money;
+	}
+	public void setMoney(int money) {
+		this.money = money;
+	}
+	public int getWhibarprice() {
+		return whibarprice;
+	}
+	public void setWhibarprice(int whibarprice) {
+		this.whibarprice = whibarprice;
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+}

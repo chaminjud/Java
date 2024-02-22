@@ -1,0 +1,14 @@
+package Sec06;
+
+public class Calculator {
+
+	//필드없음
+	//생성자 기본
+	
+	//메서드
+	
+	void powerOn(){
+		System.out.println("전원을 킨다");
+         
+	}
+}

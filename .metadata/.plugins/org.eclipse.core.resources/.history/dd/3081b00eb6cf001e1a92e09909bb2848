@@ -1,0 +1,11 @@
+package Sec11;
+
+public class CarExam {
+
+	public static void main(String[] args) {
+	     
+		Car.simulate();
+
+	}
+
+}

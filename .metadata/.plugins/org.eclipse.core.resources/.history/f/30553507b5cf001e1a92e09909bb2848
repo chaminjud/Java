@@ -1,0 +1,16 @@
+package Sec11;
+
+public class Car {
+
+	int speed;
+	
+	
+	void run() {
+		
+	}
+	
+	
+	static void simulate() {
+         
+	}
+}

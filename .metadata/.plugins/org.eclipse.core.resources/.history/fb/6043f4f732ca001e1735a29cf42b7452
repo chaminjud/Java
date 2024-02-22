@@ -1,0 +1,13 @@
+package Sec05;
+
+public class SplitExam {
+
+	public static void main(String[] args) {
+		
+		String board = "1,자바 학습, 참조 타입 String을 공부합니다., 김철수";
+		String[] tks = board.split(",");
+		System.out.println(tks[1]);
+
+	}
+
+}

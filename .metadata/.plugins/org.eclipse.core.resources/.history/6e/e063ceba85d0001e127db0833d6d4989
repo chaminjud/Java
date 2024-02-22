@@ -1,0 +1,11 @@
+package Sec001;
+
+public class Application {
+
+	private int money;
+	private String cola;
+	private String cider;
+	private String coffee;
+	private String whiba;
+	
+}

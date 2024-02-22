@@ -1,0 +1,15 @@
+package Sec08;
+
+public class EnumClassExam {
+
+	public static void main(String[] args) {
+		
+		//enum은 외부에서 가져와서 사용한다.
+		//컴퓨터에 있는 날짜 요일 시간을 얻으려면 java.util.Calendar를 사용한다.
+		//java.util.GregorianCalendar
+		Week today = Week.WEDNESDAY;
+		
+
+	}
+
+}

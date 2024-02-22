@@ -1,0 +1,12 @@
+package Sec11;
+
+public class Television {
+
+	// 정적 필드(static) , 정적필드는 일반적으로 바로 초기화를 한다.
+	static String company = "LG";
+	static String model = "OLED";
+	static String info;
+	static {
+		info = company + "-" + model;
+	}
+}

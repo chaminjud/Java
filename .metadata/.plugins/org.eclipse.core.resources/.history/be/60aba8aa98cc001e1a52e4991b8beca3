@@ -1,0 +1,25 @@
+package Sec05;
+
+public class Korean {
+
+	//필드 부분
+	String nation = "대한민국";
+	String name;
+	String ssn;
+	int age;
+	
+	//생성자 부분
+	Korean(String name, String ssn,int age){
+		this.name = name;
+		this.ssn = ssn;
+		this.age = age;
+		//필드에 있는 부분을 가져다 쓸때는 this.를 사용한다.
+	}
+	
+	//매서드 부분
+	public void active(){
+		System.out.println("키를 누른다");
+	}
+	
+	
+}

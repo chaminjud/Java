@@ -1,0 +1,11 @@
+package Sec10;
+
+public class Calculator {
+    //정적필드     
+	static double pi = 3.14159;
+	
+	//정적메서드
+	static int plus(int x, int y) {
+		return x+y;
+	}
+}

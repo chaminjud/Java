@@ -1,0 +1,35 @@
+package Sec08;
+
+import java.util.Scanner;
+
+public class Test3Exam {
+
+	public static void main(String[] args) {
+		
+		
+	       Scanner sc = new Scanner(System.in);
+	
+		
+	       int[] arr = {0};
+		
+		while(true) {
+			System.out.println("----------------------------------------------");
+			System.out.println("1.학생수 | 2.점수입력 | 3.점수리스트 | 4.분석 | 5.종료");
+			System.out.println("----------------------------------------------");
+			String MyChoice = sc.nextLine();
+			
+			if(MyChoice.equals("1")) {
+				System.out.println("선택> " + MyChoice);
+				System.out.print("학생수> ");
+				String MyChoice2 = sc.nextLine();
+				System.out.print(MyChoice2);
+				int student = Integer.parseInt(MyChoice2);
+			for(int i = 0 ; i <= student; i++) {
+				     int[] arr = 
+			  }
+			}
+		}
+
+	}
+
+}

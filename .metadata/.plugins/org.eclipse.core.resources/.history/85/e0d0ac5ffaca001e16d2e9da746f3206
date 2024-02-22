@@ -1,0 +1,26 @@
+package Sec08;
+
+public class ArrayStringExam {
+
+	public static void main(String[] args) {
+		
+		String[] strArr = new String[3];
+		
+		strArr[0] = "Java";
+		strArr[1] = "Java";
+		strArr[2] = new String("Java");
+		
+		
+		System.out.println("0번 :" + strArr[0]);
+		System.out.println("1번 :" + strArr[1]);
+		System.out.println("2번 :" + strArr[2]);
+		
+		System.out.println(strArr[0] == strArr[1]); // 같은 번지(주소)를 바라보고 있다
+		System.out.println(strArr[1] == strArr[2]); // 다른 번지(주소)를 바라보고 있다
+		System.out.println(strArr[2] == strArr[0]);
+		
+		System.out.println(strArr[0].equals(strArr[2])); // 번지수가 다른 리터럴값은 equals연산으로 같은지 확인하자
+
+	}
+
+}

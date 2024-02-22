@@ -1,0 +1,16 @@
+package Sec05;
+
+public class Car {
+       
+	//필드
+	String model; // 초기화를 시키지 않아도 된다. 변수랑을 살짝 다름
+	int speed;
+	boolean start; 
+	
+	// 초기화를 하지 않은 상태
+//	String model = "그랜져";
+//	int speed = 300;
+//	boolean start = true;
+	
+	
+}

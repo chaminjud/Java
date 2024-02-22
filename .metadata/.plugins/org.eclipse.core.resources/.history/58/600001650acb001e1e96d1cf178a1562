@@ -1,0 +1,28 @@
+package Sec08;
+
+public class TestExam {
+
+	    public static void main(String[] args) {
+	        int[] arr = {3, 8, 1, 5, 90, 4, 6};
+	        int maxSum = MaxSum(arr);
+	        System.out.println("가장 큰 두 수의 합: " + maxSum);
+	    }
+
+	    public static int MaxSum(int[] arr1) {
+	        int largest = Integer.MIN_VALUE; // 배열에서 가장 큰 수를 저장할 변수
+	        int secondLargest = Integer.MIN_VALUE; // 배열에서 두 번째로 큰 수를 저장할 변수
+
+	        // 배열을 순회하면서 가장 큰 수와 두 번째로 큰 수를 찾음
+	        for (int num : arr1) {
+	            if (num > largest) {
+	                secondLargest = largest;
+	                largest = num;
+	            } else if (num > secondLargest) {
+	                secondLargest = num;
+	            }
+	        }
+
+	        // 가장 큰 두 수의 합 반환
+	        return largest + secondLargest;
+	    }
+	}

@@ -1,0 +1,22 @@
+package Sec08;
+
+public class ArrayStringExam {
+
+	public static void main(String[] args) {
+		
+		String[] strArr = new String[3];
+		
+		strArr[0] = "Java";
+		strArr[1] = "Java";
+		strArr[2] = new String("Java");
+		
+		
+		System.out.println("0¹ø :" + strArr[0]);
+		System.out.println("1¹ø :" + strArr[1]);
+		System.out.println("2¹ø :" + strArr[2]);
+		
+		System.out.println(strArr[0] == strArr[1]);
+
+	}
+
+}
