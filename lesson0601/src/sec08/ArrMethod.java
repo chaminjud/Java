@@ -25,5 +25,8 @@ public class ArrMethod {
 		}
 		
 		return sum;
+		
+		
+		
 	}
 }

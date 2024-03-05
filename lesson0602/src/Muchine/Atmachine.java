@@ -64,9 +64,9 @@ public class Atmachine {
 	void show() {
 		System.out.println();
 		System.out.printf("%s (%d개)\n", tray1[0].toString(),countOfTray(tray1));
-		System.out.printf("%s (%d개)\n", tray2[0].toString(),countOfTray(tray1));
-		System.out.printf("%s (%d개)\n", tray3[0].toString(),countOfTray(tray1));
-		System.out.printf("%s (%d개)\n", tray4[0].toString(),countOfTray(tray1));
+		System.out.printf("%s (%d개)\n", tray2[0].toString(),countOfTray(tray2));
+		System.out.printf("%s (%d개)\n", tray3[0].toString(),countOfTray(tray3));
+		System.out.printf("%s (%d개)\n", tray4[0].toString(),countOfTray(tray4));
 	}
 	
 	//거스름돈 반환 하는 함수

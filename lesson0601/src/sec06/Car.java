@@ -16,7 +16,8 @@ public class Car {
 	String color;
 	int maxSpeed;
 	
-	//생성자
+ 
+	//생성자 오버로딩
 	Car(){
 		this("그랜저","빨강", 300);
 	}
@@ -32,7 +33,7 @@ public class Car {
 //	}
 	Car(String model, int maxSpeed){
 		this.model = model;
-		this.maxSpeed = 300;
+		this.maxSpeed = 1;
 	}
 	Car(String model, String color, int maxSpeed){
 		this.model = model;

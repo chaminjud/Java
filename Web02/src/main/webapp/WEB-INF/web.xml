@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Web02</display-name>
+  <welcome-file-list>
+  <!-- 자동 실행해주는 역활이다 -->
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  
+  <!-- 세번째 서블릿 주소 매핑 -->
+  <servlet>
+  <!-- 이름 지정, 무슨 클래스인지 지정(패키지명.클래스명 -->
+  	<servlet-name>tservlet</servlet-name>
+    <!-- com.thirdweb.ThirdWeb 이것을 가져와서 tservlet으로 사용한다는 의미  -->
+    <!-- 서블릿 클래스는 반드시 패키지.클라스명 -->
+  	<servlet-class>com.thirdweb.ThirdWeb</servlet-class>
+  </servlet>
+  
+  <!-- 매핑하는 코드 -->
+  <servlet-mapping>
+  	<servlet-name>tservlet</servlet-name>
+  	<url-pattern>/tservlet</url-pattern>
+  </servlet-mapping>
+  
+  	<context-param>
+  	   <param-name>uname</param-name>
+  	   <param-value>홍길동</param-value>
+  	</context-param>
+  	<context-param>
+  	   <param-name>uoffice</param-name>
+  	   <param-value>쌤썽</param-value>
+  	</context-param>
+</web-app>
